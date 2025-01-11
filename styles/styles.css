@@ -1,0 +1,68 @@
+/* fira-sans */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* shared style */
+body{
+    max-width: 1280px;
+  margin: 0 auto;
+}
+.button-primary{
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600px;
+    border-radius: 8px;
+    padding: 17px 34px;
+}
+.secondary-bg-colour{
+background-color: #C6E4D6;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+}
+  
+  /* banner styles */
+ 
+  .banner{
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    
+  }
+  .small-heading{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E;
+  }
+.banner-heading{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.banner-description{
+    margin: 117px 62px;
+}
+.flag{
+    margin: 80px 60px;
+}
+
+/* vision section style */
+.technology-subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.technology-container{
+    display: flex;
+}
+
