@@ -24,6 +24,7 @@ background-color: #C6E4D6;
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
+    margin-top: 80px;
 }
 .section-description{
     font-size: 16px;
@@ -61,8 +62,58 @@ background-color: #C6E4D6;
     font-size: 20px;
     font-weight: bold;
     color: #0E0E0E;
-}
-.technology-container{
-    display: flex;
+    
 }
 
+.technology-container{
+    display: flex;
+    gap: 24px;
+}
+.technology{
+    border-radius: 16px;
+    padding: 24px 32px;
+}
+.digital-transformation{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.digital-transformation-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(84, 144, 245, 1);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px; 
+}
+.green-energy{
+    background-color: rgba(198, 228, 214, 1);
+}
+.green-energy-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(9, 161, 92, 1);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+
+}
+.modern-infrastructure{
+    background-color: rgba(247, 235, 207, 1);
+}
+.modern-infrastructure-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 194, 57, 1);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+}
+/* quote styles */
+.quote{
+    background-image: url("../B11A1--assignment-1-main/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 48px 24px;
+    margin-top: 32px;
+    border-radius: 16px;
+    box-shadow: 5px 6px 40px 0px rgba(14, 14, 14, 0.15) ;
+}
