@@ -211,9 +211,8 @@ background-color: #C6E4D6;
 .newsletter{
     background-color: rgba(198, 228, 214, 1);
     border-radius: 24px;
-    padding: 80px 265px;
-    margin-top: 80px;
-    
+    padding: 25px 265px;
+    margin-top: 80px;    
 }
 .newsletter-btn{
     padding: 13px 26px;
@@ -237,4 +236,22 @@ background-color: #C6E4D6;
 .news-letter-footnote{
     padding: 24px 64px 0px 64px;
     text-align: center;
+}
+footer .section-title{
+   margin-bottom: 10px;
+}
+footer .news-letter-footnote{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* bottom note style */
+#bottom-note{
+    text-align: center;
+}
+/* hover effect */
+.button-primary:hover, .taka:hover, .news-btn:hover, .green-energy-btn:hover, .modern-infrastructure-btn:hover,.newsletter-btn:hover, .digital-transformation-btn:hover{
+   color: red;
+   background-color: chartreuse;
+    transform: 1.2;
 }
