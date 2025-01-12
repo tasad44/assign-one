@@ -153,3 +153,35 @@ background-color: #C6E4D6;
     font-weight: 600px;
     border-radius: 8px;
 }
+/* style for donate section */
+.donate-top{
+    justify-items: center;
+}
+.taka{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    border-radius: 16px;
+    padding: 40px;
+    
+}
+.taka-btn{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.two-hundread{
+    background-color: rgba(198, 228, 214, 1);
+}
+.donate-description{
+    padding: 0px 90px;
+    margin-bottom: 32px;
+    margin-top: 0px;
+    
+}
+#with{
+    display: inline-block;
+    text-align: center;
+    width: 98%;
+    
+}
